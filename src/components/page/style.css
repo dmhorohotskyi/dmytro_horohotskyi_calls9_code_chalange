@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+}
+
+p {
+    color: #7c7d82;
+}
+
+a {
+    color: #6fbae0;
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li a {
+    line-height: 40px;
+    padding: 10px;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+.page {
+    position:relative;
+    width: 100%;
+}

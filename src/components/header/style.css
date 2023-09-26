@@ -1,0 +1,23 @@
+
+header {
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1024px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+
+header div.logo {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li a {
+    color: #9f9fa1;
+    text-transform: capitalize;
+}
